@@ -1368,21 +1368,21 @@ swagger:
   # Nonsecurity API path match pattern of swagger UI links
   non_security_path_regex: "${SWAGGER_NON_SECURITY_PATH_REGEX:/api/(?:noauth|v1)/.*}"
   # The title on the API doc UI page
-  title: "${SWAGGER_TITLE:ThingsBoard REST API}"
+  title: "${SWAGGER_TITLE:Hexphyre IotBoard REST API}"
   # The description on the API doc UI page
-  description: "${SWAGGER_DESCRIPTION: ThingsBoard open-source IoT platform REST API documentation.}"
+  description: "${SWAGGER_DESCRIPTION: Hexphyre IoTBoard platform REST API documentation.}"
   contact:
     # The contact name on the API doc UI page
-    name: "${SWAGGER_CONTACT_NAME:ThingsBoard team}"
+    name: "${SWAGGER_CONTACT_NAME:Hexphyre IoTBoard team}"
     # The contact URL on the API doc UI page
-    url: "${SWAGGER_CONTACT_URL:https://thingsboard.io}"
+    url: "${SWAGGER_CONTACT_URL:https://iot.libs.asia}"
     # The contact email on the API doc UI page
-    email: "${SWAGGER_CONTACT_EMAIL:info@thingsboard.io}"
+    email: "${SWAGGER_CONTACT_EMAIL:info@libs.asia}"
   license:
     # The license title on the API doc UI page
     title: "${SWAGGER_LICENSE_TITLE:Apache License Version 2.0}"
     # Link to the license body on the API doc UI page
-    url: "${SWAGGER_LICENSE_URL:https://github.com/thingsboard/thingsboard/blob/master/LICENSE}"
+    url: "${SWAGGER_LICENSE_URL:https://github.com/lekirtech/lekir-iotboard/blob/master/LICENSE}"
   # The version of the API doc to display. Default to the package version.
   version: "${SWAGGER_VERSION:}"
 
@@ -1798,8 +1798,8 @@ management:
 # Mobile application settings for Thingsboard mobile application
 mobileApp:
   # Server domain name for Thingsboard Live mobile application
-  domain: "${TB_MOBILE_APP_DOMAIN:demo.thingsboard.io}"
+  domain: "${TB_MOBILE_APP_DOMAIN:iot.libs.asia}"
   # Link to Google Play store for Thingsboard Live mobile application
-  googlePlayLink: "${TB_MOBILE_APP_GOOGLE_PLAY_LINK:https://play.google.com/store/apps/details?id=org.thingsboard.demo.app}"
+  googlePlayLink: "${TB_MOBILE_APP_GOOGLE_PLAY_LINK:https://play.google.com/store/apps/details?id=org.lekirtech.iot.app}"
   # Link to App Store for Thingsboard Live mobile application
-  appStoreLink: "${TB_MOBILE_APP_APP_STORE_LINK:https://apps.apple.com/us/app/thingsboard-live/id1594355695}"
+  appStoreLink: "${TB_MOBILE_APP_APP_STORE_LINK:https://apps.apple.com/us/app/lekirtech-iot/id1594355695}"
